@@ -1,9 +1,19 @@
 
 #include <stdio.h>
 
+#include "test.h"
+
 int main()
 {
-  printf("src/main.c\n");
+  printf("Testing...\n");
+  
+  TEST_EQUALS(4, 5);
+  TEST_EQUALS(4, 7);
+  TEST_EQUALS(7, 7);
+  TEST_EQUALS(21, 21);
+  
+  TEST_PRINT_RESULTS();
+  
   return 0;
 }
 
