@@ -1,0 +1,5 @@
+# git will ignore any files named
+# Wildcards can be used: eg  *.txt
+
+#ignore binary src/a.out
+src/a.out
