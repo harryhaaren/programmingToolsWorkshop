@@ -5,7 +5,7 @@
 
 int main()
 {
-  printf("Testing...\n");
+  printf("Running tests...\n");
   
   TEST_EQUALS(4, 5);
   TEST_EQUALS(4, 7);
