@@ -10,7 +10,7 @@ int main()
   TEST_EQUALS(4, 5);
   TEST_EQUALS(4, 7);
   TEST_EQUALS(7, 7);
-  TEST_EQUALS(21, 21);
+  TEST_EQUALS(25, 25);
   
   TEST_PRINT_RESULTS();
   
